@@ -26,11 +26,11 @@ export default  (
   </Route>
 );
 
-function requireAuth(nextState, replace) {
-  if (!sessionStorage.jwt) {
-    replace({
-      pathname: '/login',
-      state: { nextPathname: nextState.location.pathname }
-    })
-  }
-}
+// function requireAuth(nextState, replace) {
+//   if (!sessionStorage.jwt) {
+//     replace({
+//       pathname: '/login',
+//       state: { nextPathname: nextState.location.pathname }
+//     })
+//   }
+// }
