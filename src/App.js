@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <div className="container-fluid content">
+        <div className="content">
           {/*MAY BE FIXED*/}
           {this.props.children}
         </div>

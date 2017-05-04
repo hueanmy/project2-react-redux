@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="75c6313c-e308-4afd-bab1-0ea6efb5107c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/topicActions.js" afterPath="$PROJECT_DIR$/src/actions/topicActions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/topics/TopicsPage.jsx" afterPath="$PROJECT_DIR$/src/components/topics/TopicsPage.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/HomePage.jsx" afterPath="$PROJECT_DIR$/src/components/home/HomePage.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SingleTopic.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/topics/SingleTopic.jsx">
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/home.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/HomePage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -36,26 +45,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file leaf-file-name="sessionActions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/actions/sessionActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="480">
+              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicsPage.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/topics/TopicsPage.jsx">
+      <file leaf-file-name="sessionReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/sessionReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,9 +94,7 @@
         <option value="$PROJECT_DIR$/src/actions/cvActions.js" />
         <option value="$PROJECT_DIR$/src/actions/groupActions.js" />
         <option value="$PROJECT_DIR$/src/actions/userActions.js" />
-        <option value="$PROJECT_DIR$/src/actions/sessionActions.js" />
         <option value="$PROJECT_DIR$/src/actions/actionTypes.js" />
-        <option value="$PROJECT_DIR$/src/reducers/sessionReducer.js" />
         <option value="$PROJECT_DIR$/src/components/common/Header.jsx" />
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/reducers/topicReducer.js" />
@@ -101,6 +106,12 @@
         <option value="$PROJECT_DIR$/src/components/topics/TopicsPage.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/topics/SingleTopic.jsx" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/home/home.css" />
+        <option value="$PROJECT_DIR$/src/reducers/sessionReducer.js" />
+        <option value="$PROJECT_DIR$/src/actions/sessionActions.js" />
+        <option value="$PROJECT_DIR$/src/components/home/HomePage.jsx" />
       </list>
     </option>
   </component>
@@ -179,6 +190,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="reducers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phuong-prj2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phuong-prj2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -205,6 +234,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phuong-prj2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phuong-prj2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -216,7 +267,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/index.js&#10;topic&#9;null&#9;null&#10;index.&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/index.js&#10;sing&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/topics/single-topic.css&#10;single&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/topics/SingleTopic.jsx&#10;Sing&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/topics/SingleTopic.jsx&#10;use&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/ManageUserPage.jsx&#10;userpage&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/UsersPage.jsx&#10;user&#9;null&#9;null&#10;userlist&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/UserList.jsx&#10;UserLi&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/UserList.jsx&#10;to&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/sample_data/topics.js&#10;Topic&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/topics/TopicsPage.jsx&#10;topicac&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/actions/topicActions.js&#10;re&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/reducers/userReducer.js&#10;topicRe&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/reducers/topicReducer.js&#10;ini&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/reducers/initialState.js&#10;route&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/routes.js&#10;header&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/common/Header.jsx&#10;action&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/actions/topicActions.js&#10;TextInput&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/common/TextInput.jsx&#10;routes&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/routes.js&#10;Man&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/ManageUserPage.jsx&#10;ma&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/ManageUserPage.jsx&#10;UserPage&#9;null&#9;null&#10;mana&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/ManageUserPage.jsx&#10;UserFo&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/UserForm.jsx&#10;userre&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/reducers/userReducer.js&#10;Mana&#9;null&#9;null&#10;cvact&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/actions/cvActions.js&#10;package&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="session&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/actions/sessionActions.js&#10;header&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/common/Header.jsx&#10;index&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/index.js&#10;topic&#9;null&#9;null&#10;index.&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/index.js&#10;sing&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/topics/single-topic.css&#10;single&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/topics/SingleTopic.jsx&#10;Sing&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/topics/SingleTopic.jsx&#10;use&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/ManageUserPage.jsx&#10;userpage&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/UsersPage.jsx&#10;user&#9;null&#9;null&#10;userlist&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/UserList.jsx&#10;UserLi&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/UserList.jsx&#10;to&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/sample_data/topics.js&#10;Topic&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/topics/TopicsPage.jsx&#10;topicac&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/actions/topicActions.js&#10;re&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/reducers/userReducer.js&#10;topicRe&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/reducers/topicReducer.js&#10;ini&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/reducers/initialState.js&#10;route&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/routes.js&#10;action&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/actions/topicActions.js&#10;TextInput&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/common/TextInput.jsx&#10;routes&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/routes.js&#10;Man&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/ManageUserPage.jsx&#10;ma&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/ManageUserPage.jsx&#10;UserPage&#9;null&#9;null&#10;mana&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/ManageUserPage.jsx&#10;UserFo&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/components/users/UserForm.jsx&#10;userre&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/reducers/userReducer.js&#10;Mana&#9;null&#9;null&#10;cvact&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/src/actions/cvActions.js&#10;package&#9;FILE&#9;file:///home/phuong/Documents/phuong-prj2/package.json" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RunDashboard">
@@ -330,7 +381,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36520000" />
+    <option name="totallyTimeSpent" value="40798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,7 +393,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1365" y="-28" width="1362" height="799" extended-state="0" />
+    <frame x="1365" y="-28" width="1362" height="799" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1889706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -356,12 +407,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1889706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,34 +438,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/users/ManageUserPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/UserForm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/UserList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/ManageUserPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/users/UserForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
@@ -553,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/userActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/cvActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -588,31 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2151">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/login/LogInPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/sessionReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/sessionActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -632,8 +637,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/userReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="480">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -728,12 +736,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/userActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/topics/SingleTopic.jsx">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/sessionReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="68" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/HomePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/sessionActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
