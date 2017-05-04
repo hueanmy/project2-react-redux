@@ -1,0 +1,8 @@
+.custom-row {
+  display: table;
+}
+.custom-row [class*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}

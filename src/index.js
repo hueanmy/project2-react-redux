@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { Router, browserHistory } from 'react-router';
+import jQuery from 'jquery';
+import '../node_modules/toastr/build/toastr.min.css'
 import routes from './routes';
 import configureStore from './store/configureStore';
 import { loadUsers } from './actions/userActions';

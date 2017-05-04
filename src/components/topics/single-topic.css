@@ -1,0 +1,38 @@
+.topic-card {
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  border: #2ecc71 solid 2px;
+  /*padding-bottom: 10px;*/
+  padding: 0;
+  margin: 10px;
+  /*border-color: #2ecc71;*/
+}
+
+.topic-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.topic-card h4 {
+  margin: 0;
+  color: #fff;
+  background-color: #2ecc71;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.topic-content {
+  padding: 10px;
+}
+
+.pseudo {
+  visibility: hidden;
+}
+
+.register {
+  float: right;
+  background-color: #2ecc71;
+}
+
+
