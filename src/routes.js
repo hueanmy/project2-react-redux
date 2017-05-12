@@ -10,11 +10,13 @@ import UsersPage from './components/users/UsersPage';
 import ManageUserPage from './components/users/ManageUserPage';
 import NotFound from './components/not-found/NotFound';
 import CVPage from './components/cv/CVPage';
+import PersonalCV from './components/cv/PersonalCV';
 
 export default  (
   <Route path="/" component={App}>
     <IndexRoute component={HomePage}/>
     <Route path="/about" component={AboutPage}/>
+    <Route path="/personalcv" component={PersonalCV}/>
     <Route path="/teachers" component={TeacherPage}/>
     <Route path="/topics" component={TopicsPage}/>
     <Route path="/users" component={UsersPage}/>
