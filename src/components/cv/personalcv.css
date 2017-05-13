@@ -1,3 +1,37 @@
 .personalcv {
   padding-top: 53px;
 }
+.main-content {
+  border-radius: 5px;
+  border: 2px solid #1ABC9C;
+  background-color: #fafafa;
+}
+.cv-header {
+  /*border: 2px solid red;*/
+  text-align: center;
+  margin-top: 0;
+}
+
+ .general-info {
+   background-color: #1ABC9C;
+   color: white;
+   padding: 4rem;
+ }
+ .time {
+   /*background-color: red;*/
+ }
+ .activity {
+   /*background-color: green;*/
+ }
+ #degree input {
+   border: none !important;
+}
+
+ .main-info {
+   /*background-color: #E0F2F1;*/
+ }
+
+ .success-custom {
+   background-color: #1ABC9C;
+   margin: 25rem 0 0 45%;
+ }

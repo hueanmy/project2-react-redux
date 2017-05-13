@@ -18,8 +18,8 @@ class TopicsPage extends React.Component {
     return (
       <div>
         <h1>Topic List</h1>
-        <div className="col-md-10 col-md-offset-1">
           <div className="row">
+            <div className="col-md-10 col-md-offset-1">
             {topics.map((topic, index) => <SingleTopic key={index} topic={topic}/> )}
           </div>
         </div>
